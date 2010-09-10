@@ -1,0 +1,63 @@
+TMC
+v7
+r1
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/Default.png
+c000000004C89B9E000000000000077AB
+t1284094432
+s30635
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/Icon.png
+c000000004C89B9E0000000000000246F
+t1284094432
+s9327
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/fps_images.png
+c000000004C89B9E0000000000000183B
+t1284094432
+s6203
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app/Contents/Info.plist
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app/Contents/Resources/fps_images.png
+t2
+s0
+
+NResources/Info.plist
+c000000004C89B9E0000000000000038E
+t1284094432
+s910
+
+CCpResource build/Debug/MC.app/Contents/Resources/Default.png Resources/Default.png
+r0
+
+CCpResource build/Debug/MC.app/Contents/Resources/Icon.png Resources/Icon.png
+r0
+
+CCpResource build/Debug/MC.app/Contents/Resources/fps_images.png Resources/fps_images.png
+r0
+
+CProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app/Contents/Info.plist Resources/Info.plist
+r0
+
+CTouch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug/MC.app
+r0
+
