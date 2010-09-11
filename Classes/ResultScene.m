@@ -40,7 +40,7 @@
 		// setup menu
 		
 		
-		NSTimer *timer;
+		
 		
 		timer = [NSTimer scheduledTimerWithTimeInterval: 2
 												 target: self
@@ -49,7 +49,7 @@
 												repeats: NO];
 		
 		
-		[self setupMenu];
+		
 		
 		
 	}
@@ -63,9 +63,17 @@
 	[selected_card runAction:[CCFadeIn actionWithDuration:5]];
 	selected_card.position = ccp(160,240);
 	[self addChild:selected_card];
+	
+	//[self setupMenu];
+	
+	[NSTimer scheduledTimerWithTimeInterval: 5
+									 target: self
+								   selector: @selector(setupMenu:)
+								   userInfo: nil
+									repeats: NO];
 }
 
--(void) setupMenu {
+-(void) setupMenu:(id)sender {
 	
 	CCMenuItemImage *replyBtn = [CCMenuItemImage itemFromNormalImage:@"play-again.png" selectedImage:@"play-again.png" target:self selector:@selector(replay:)];
 	//CCMenuItemImage *quitBtn = [CCMenuItemImage itemFromNormalImage:@"quit.png" selectedImage:@"quit.png" target:self selector:@selector(endGame:)];
@@ -73,7 +81,7 @@
 			
 	CCMenu *menu = [CCMenu menuWithItems:replyBtn, nil];
 	
-	replyBtn.position = ccp(80, -200);
+	replyBtn.position = ccp(120, -200);
 	//quitBtn.position = ccp(80, -200);
 	
 	
@@ -97,6 +105,10 @@
 -(void)endGame:(id)sender {
 	NSLog(@"End game");
 	[[CCDirector sharedDirector] end];
+}
+
+-(void) dealloc {
+	[super dealloc];
 }
 
 

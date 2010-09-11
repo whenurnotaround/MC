@@ -13,12 +13,13 @@
 #import "MenuScene.h"
 
 @interface Result : CCLayer {
+	NSTimer *timer;
 
 }
 
 +(id) scene;
 
--(void) setupMenu;
+-(void) setupMenu:(id)sender;
 -(void)replay:(id)sender ;
 -(void)endGame:(id)sender ;
 
