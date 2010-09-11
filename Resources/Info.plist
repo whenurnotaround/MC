@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>witchorb.png</string>
+	<string>witchorb_icon.png</string>
 	<key>CFBundleName</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>

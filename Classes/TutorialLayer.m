@@ -25,7 +25,10 @@
         [self setFontName:@"Helvetica"];
         [self setFontSize:24]; 
 		
-		//[[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
+		
+		
+		[[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self 
+														 priority:0 swallowsTouches:YES];
     }
     return self;
 }
@@ -44,23 +47,64 @@
     [super dealloc];
 }
 
-//- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-//    return YES;
-//}
-
--(void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    /*
-     *  We are using pushScene/popScene instead of replaceScene
-     *  (which has superior memory usage characteristics), because
-     *  it makes integrating SlideShowLayer much simpler, and helps
-     *  avoid binding the code to one application without requiring
-     *  us to use the delegate pattern.
-     */
-	NSLog(@"Is touched");
-    if ([self hasNextSlide]) [self displayNextSlide];        
-    else [[CCDirector sharedDirector] popScene];
+- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
 	
+	CGPoint touchLocation = [touch locationInView: [touch view]];
+    touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
+    touchLocation = [self convertToNodeSpace:touchLocation];
+	
+    startLocation = touchLocation;
+	
+	return YES;
 }
+
+- (void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
+	CGPoint touchLocation = [touch locationInView: [touch view]];
+	    touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
+		touchLocation = [self convertToNodeSpace:touchLocation];
+	
+		endLocation = touchLocation;
+	NSLog(@"star - end = %i", startLocation.x - endLocation.x);
+		//Compare difference in distance
+	    if ((startLocation.x - endLocation.x) > 100 ) {
+			// Swipe
+			
+			if ([self hasNextSlide]) [self displayNextSlide];        
+			else [[CCDirector sharedDirector] popScene];
+			
+	    } else if ((startLocation.x - endLocation.x) < 100 ){
+			if ([self hasPreviousSlide]) [self displayPreviousSlide];        
+			else [[CCDirector sharedDirector] popScene];
+		}
+	
+		
+}
+
+//-(void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+//    /*
+//     *  We are using pushScene/popScene instead of replaceScene
+//     *  (which has superior memory usage characteristics), because
+//     *  it makes integrating SlideShowLayer much simpler, and helps
+//     *  avoid binding the code to one application without requiring
+//     *  us to use the delegate pattern.
+//     */
+//	
+//	//CGPoint touchLocation = [touch locationInView: [touch view]];
+////    touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
+////    touchLocation = [self convertToNodeSpace:touchLocation];
+////	
+////    endLocation = touchLocation;
+//	
+//    // Compare difference in distance
+//    if ((startLocation.x - endLocation.x) > 100 ) {
+//		// Swipe
+//		NSLog(@"Is touched");
+//		if ([self hasNextSlide]) [self displayNextSlide];        
+//		else [[CCDirector sharedDirector] popScene];
+//    }
+//
+//	
+//}
 
 -(void)addSlideWithBackground: (NSString *)imageString
                andDescription: (NSString *)descString {

@@ -1,7 +1,7 @@
 TMC
 v7
 r0
-t305833708.122555
+t305907240.005084
 cCheck dependencies
 cProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/MC.app/fps_images.png Resources/fps_images.png
@@ -113,6 +113,8 @@ cCpResource build/Debug-iphonesimulator/MC.app/witch.png Resources/images/witch.
 cCpResource build/Debug-iphonesimulator/MC.app/witchorb.png Resources/images/witchorb.png
 cCpResource build/Debug-iphonesimulator/MC.app/bgMusic.wav Resources/sounds/bgMusic.wav
 cCpResource build/Debug-iphonesimulator/MC.app/buttonClick.caf Resources/sounds/buttonClick.caf
+cCpResource build/Debug-iphonesimulator/MC.app/witchorb_icon.png Resources/images/witchorb_icon.png
+cCpResource build/Debug-iphonesimulator/MC.app/witchorb_h_flip.png Resources/images/witchorb_h_flip.png
 cProcessPCH /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch.gch MC_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/main.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MCAppDelegate.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -123,6 +125,7 @@ cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/Stat
 cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ResultScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/Manager.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/Manager.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/TutorialLayer.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC normal i386
 cGenerateDSYMFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
 cTouch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
@@ -282,6 +285,20 @@ c000000004C5A495000000000000123E0
 t1280985424
 s74720
 
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.h
+c000000004C8AE4C50000000000000111
+t1284170949
+s273
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"SimpleAudioEngine.h"
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m
+c000000004C8AE9D9000000000000049A
+t1284172249
+s1178
+i"CreditLayer.h"
+
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.h
 c000000004C8A6E020000000000000162
 t1284140546
@@ -338,19 +355,20 @@ s1446
 i"Manager.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.h
-c000000004C8A6D56000000000000014E
-t1284140374
-s334
+c000000004C8A793A0000000000000166
+t1284143418
+s358
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 i"SimpleAudioEngine.h"
 i"ProceedScene.h"
 i"TutorialLayer.h"
+i"CreditLayer.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m
-c000000004C8A6DAF0000000000000FA2
-t1284140463
-s4002
+c000000004C8A79C1000000000000105E
+t1284143553
+s4190
 i"MenuScene.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.h
@@ -370,8 +388,8 @@ s2910
 i"ProceedScene.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.h
-c000000004C8A2B180000000000000162
-t1284123416
+c000000004C8AEABE0000000000000162
+t1284172478
 s354
 i<Foundation/Foundation.h>
 i"cocos2d.h"
@@ -379,9 +397,9 @@ i"Manager.h"
 i"MenuScene.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m
-c000000004C8A6F6800000000000007E3
-t1284140904
-s2019
+c000000004C8B8EA500000000000008C8
+t1284214437
+s2248
 i"ResultScene.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.h
@@ -401,17 +419,17 @@ s4258
 i"StatusScene.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.h
-c000000004C8A2EB100000000000007DA
-t1284124337
-s2010
+c000000004C8B633A000000000000080A
+t1284203322
+s2058
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 i"CCTouchDispatcher.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m
-c000000004C8A31FC000000000000160A
-t1284125180
-s5642
+c000000004C8B8A730000000000001B9D
+t1284213363
+s7069
 i"TutorialLayer.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/MC_Prefix.pch
@@ -966,6 +984,16 @@ c0000000049E963E20000000000033AAB
 t1240032226
 s211627
 
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb_h_flip.png
+c000000004C8B8C1600000000000337FD
+t1284213782
+s210941
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb_icon.png
+c000000004C8B85B6000000000002EECD
+t1284212150
+s192205
+
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/sounds/bgMusic.wav
 c0000000048661C3800000000000C0D24
 t1214651448
@@ -977,11 +1005,11 @@ t1219820220
 s20380
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
-t1284140908
-s3876
+t1284214440
+s3944
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM
-t1284140908
+t1284214439
 s102
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/1.png
@@ -1201,15 +1229,15 @@ t1284129791
 s9327
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist
-t1284129791
-s629
+t1284212400
+s636
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
-t1284140907
-s1438400
+t1284214439
+s1444284
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/PkgInfo
-t1284129791
+t1284212400
 s8
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Thumbs.db
@@ -1420,6 +1448,14 @@ N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulato
 t1284129791
 s211627
 
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/witchorb_h_flip.png
+t1284214438
+s210941
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/witchorb_icon.png
+t1284212401
+s192205
+
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/wtutor1 copy.png
 t1284129791
 s207788
@@ -1441,8 +1477,12 @@ c000000004C8A43FF00000000003C82E0
 t1284129791
 s3965664
 
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o
+t1284172251
+s49624
+
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o
-t1284140588
+t1284202365
 s56696
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/HelloWorldScene.o
@@ -1450,12 +1490,12 @@ t1284095305
 s46564
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MC.LinkFileList
-c000000004C8A43FF00000000000004A5
-t1284129791
-s1189
+c000000004C8A79C3000000000000052A
+t1284143555
+s1322
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MCAppDelegate.o
-t1284140588
+t1284203323
 s61300
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/Manager.o
@@ -1463,24 +1503,24 @@ t1284139374
 s14796
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MenuScene.o
-t1284140588
-s55944
+t1284203323
+s56840
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ProceedScene.o
-t1284140588
+t1284202365
 s54568
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ResultScene.o
-t1284140907
-s51556
+t1284214439
+s52844
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/StatusScene.o
-t1284140588
+t1284202365
 s56888
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/TutorialLayer.o
-t1284129793
-s66756
+t1284213783
+s73148
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/main.o
 t1284129792
@@ -2135,17 +2175,30 @@ t1284129792
 s15232016
 
 NResources/Info.plist
-c000000004C8A1B7100000000000003C6
-t1284119409
-s966
+c000000004C8B868B00000000000003CB
+t1284212363
+s971
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies305833707#305833707#0(0"0(0#1#0"8621976064#0"0#
+lSLF07#2@18"Check dependencies305907238#305907238#0(0"0(0#1#0"8609908608#0"0#
+
+CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305865051.194329
+e305865051.737859
+r1
+xCompileC
+xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m305865051#305865051#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m8634985056#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305833388.321451
-e305833388.559760
+s305895165.205033
+e305895165.444635
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o
@@ -2154,7 +2207,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m305833388#305833388#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m8624019392#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o0#
+lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m305895165#305895165#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m8616783680#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/HelloWorldScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s305788105.401213
@@ -2170,8 +2223,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/HelloWorldScene.m305788105#305788105#0(0"0(0#0#78"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/HelloWorldScene.m8627643680#2043"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/HelloWorldScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/HelloWorldScene.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MCAppDelegate.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305833388.044106
-e305833388.269926
+s305896122.904585
+e305896123.151990
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MCAppDelegate.o
@@ -2180,7 +2233,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m305833388#305833388#0(0"0(0#0#76"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m8624531904#2039"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MCAppDelegate.o0#
+lSLF07#2@84"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m305896122#305896123#0(0"0(0#0#76"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m8632147008#2039"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MCAppDelegate.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MCAppDelegate.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/Manager.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/Manager.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s305832173.384684
@@ -2196,8 +2249,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/Manager.m305832173#305832174#0(0"0(0#0#70"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/Manager.m8617472480#2027"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/Manager.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/Manager.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MenuScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305833388.045110
-e305833388.321350
+s305896122.906023
+e305896123.194749
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MenuScene.o
@@ -2206,11 +2259,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m305833388#305833388#0(0"0(0#0#72"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m8624333920#2031"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MenuScene.o0#
+lSLF07#2@80"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m305896122#305896123#0(0"0(0#0#72"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m8632040864#2031"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/MenuScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MenuScene.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ProceedScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305833388.270036
-e305833388.490796
+s305895165.196321
+e305895165.454597
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ProceedScene.o
@@ -2219,11 +2272,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m305833388#305833388#0(0"0(0#0#75"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m8623921792#2037"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ProceedScene.o0#
+lSLF07#2@83"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m305895165#305895165#0(0"0(0#0#75"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m8620524352#2037"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ProceedScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ProceedScene.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ResultScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305833707.587423
-e305833707.762920
+s305907238.881901
+e305907239.191713
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ResultScene.o
@@ -2232,11 +2285,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m305833707#305833707#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m8616291168#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ResultScene.o0#
+lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m305907238#305907239#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m8640424512#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/ResultScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/ResultScene.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/StatusScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305833388.490899
-e305833388.677412
+s305895165.444739
+e305895165.686771
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/StatusScene.o
@@ -2245,11 +2298,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m305833388#305833388#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m8622999264#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/StatusScene.o0#
+lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m305895165#305895165#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m8616412480#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/StatusScene.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/StatusScene.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/TutorialLayer.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305822593.128056
-e305822593.280489
+s305906582.780408
+e305906583.361688
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/TutorialLayer.o
@@ -2258,7 +2311,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m305822593#305822593#0(0"0(0#0#76"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m8632718688#2039"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/TutorialLayer.o0#
+lSLF07#2@84"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m305906582#305906583#0(0"0(0#0#76"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m8622682592#2039"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/TutorialLayer.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/TutorialLayer.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/main.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s305822592.492831
@@ -3272,33 +3325,51 @@ xbuild/Debug-iphonesimulator/MC.app/witchorb.png
 xResources/images/witchorb.png
 lSLF07#2@34"Copy Resources/images/witchorb.png305822591#305822591#0(0"0(0#0#82"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb.png8632445152#510"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
+CCpResource build/Debug-iphonesimulator/MC.app/witchorb_h_flip.png Resources/images/witchorb_h_flip.png
+s305907238.854905
+e305907238.878765
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MC.app/witchorb_h_flip.png
+xResources/images/witchorb_h_flip.png
+lSLF07#2@41"Copy Resources/images/witchorb_h_flip.png305907238#305907238#0(0"0(0#0#89"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb_h_flip.png8643351616#517"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb_h_flip.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+
+CCpResource build/Debug-iphonesimulator/MC.app/witchorb_icon.png Resources/images/witchorb_icon.png
+s305905200.955139
+e305905201.032574
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MC.app/witchorb_icon.png
+xResources/images/witchorb_icon.png
+lSLF07#2@39"Copy Resources/images/witchorb_icon.png305905200#305905201#0(0"0(0#0#87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb_icon.png8635293088#515"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/witchorb_icon.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+
 CGenerateDSYMFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
-s305833707.981758
-e305833708.119550
+s305907239.647447
+e305907240.001528
 r1
 xGenerateDSYMFile
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
-lSLF07#2@94"GenerateDSYMFile build/Debug-iphonesimulator/MC.app.dSYM build/Debug-iphonesimulator/MC.app/MC305833707#305833708#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC8624315616#410"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM0#
+lSLF07#2@94"GenerateDSYMFile build/Debug-iphonesimulator/MC.app.dSYM build/Debug-iphonesimulator/MC.app/MC305907239#305907240#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC8636883136#410"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM0#
 
 CLd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC normal i386
-s305833707.763011
-e305833707.981659
+s305907239.191933
+e305907239.647351
 r1
 xLd
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
 xnormal
 xi386
-lSLF07#2@95"Link /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC305833707#305833707#0(0"0(0#0#0"8624384960#1095"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -filelist /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MC.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC0#
+lSLF07#2@95"Link /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC305907239#305907239#0(0"0(0#0#0"8643688864#1095"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -filelist /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MC.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC0#
 
 CProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist Resources/Info.plist
-s305822591.257091
-e305822591.281284
+s305905200.934637
+e305905200.946061
 r1
 xProcessInfoPlistFile
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist
 xResources/Info.plist
-lSLF07#2@28"Process Resources/Info.plist305822591#305822591#0(0"0(0#0#73"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/Info.plist8621516672#513"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist0#
+lSLF07#2@28"Process Resources/Info.plist305905200#305905200#0(0"0(0#0#73"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/Info.plist8601248576#513"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist0#
 
 CProcessPCH /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch.gch MC_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s305822591.717803
@@ -3314,10 +3385,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@24"Precompile MC_Prefix.pch305822591#305822592#0(0"0(0#0#66"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/MC_Prefix.pch8632200832#1896"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/MC_Prefix.pch -o /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch.gch0#
 
 CTouch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
-s305833708.119638
-e305833708.122494
+s305907240.001613
+e305907240.005017
 r1
 xTouch
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
-lSLF07#2@93"Touch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app305833708#305833708#0(0"0(0#0#0"8624082752#301"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@93"Touch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app305907240#305907240#0(0"0(0#0#0"8644371904#301"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 

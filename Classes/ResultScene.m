@@ -33,22 +33,35 @@
 	if( (self=[super init] )) {
 		
 		// add background
-		CCSprite *backgroundImage = [CCSprite spriteWithFile:@"witchorb.png"];
+		CCSprite *backgroundImage = [CCSprite spriteWithFile:@"witchorb_h_flip.png"];
 		[backgroundImage setPosition:ccp(160,240)];
 		[self addChild:backgroundImage z:0];
 		
-		
-		// showing the card
-		CCSprite *selected_card = [CCSprite spriteWithFile:[[Manager sharedInstance] selected_card_filename]];
-		[selected_card setOpacity:0];
-		[selected_card runAction:[CCFadeIn actionWithDuration:10]];
-		selected_card.position = ccp(160,240);
-		[self addChild:selected_card];
-		
 		// setup menu
 		[self setupMenu];
+		
+		NSTimer *timer;
+		
+		timer = [NSTimer scheduledTimerWithTimeInterval: 3
+												 target: self
+											   selector: @selector(showResult:)
+											   userInfo: nil
+												repeats: YES];
+		
+		
+		
+		
 	}
 	return self;
+}
+
+- (void) showResult:(id)sender{
+	// showing the card
+	CCSprite *selected_card = [CCSprite spriteWithFile:[[Manager sharedInstance] selected_card_filename]];
+	[selected_card setOpacity:0];
+	[selected_card runAction:[CCFadeIn actionWithDuration:10]];
+	selected_card.position = ccp(160,240);
+	[self addChild:selected_card];
 }
 
 -(void) setupMenu {
@@ -59,7 +72,7 @@
 			
 	CCMenu *menu = [CCMenu menuWithItems:replyBtn, nil];
 	
-	replyBtn.position = ccp(-80, -200);
+	replyBtn.position = ccp(80, -200);
 	//quitBtn.position = ccp(80, -200);
 	
 	
@@ -69,11 +82,10 @@
 
 -(void)replay:(id)sender {
 	NSLog(@"Go To MenuScene");
-	//[MC_ProjAppDelegate resetVar];
-	//[MC_ProjAppDelegate playEffect:CBEffectClick];
-	
+	[[SimpleAudioEngine sharedEngine] playEffect:@"buttonClick.caf"];
 	
 	[[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:1 scene:[Menu scene]]];
+	
 	
 	[[Manager sharedInstance] resetGameValue];
 	

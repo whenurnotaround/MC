@@ -12,6 +12,7 @@
 
 #import "ProceedScene.h"
 #import "TutorialLayer.h"
+#import "CreditLayer.h"
 
 @interface Menu : CCLayer {
 

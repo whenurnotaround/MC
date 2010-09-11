@@ -24,6 +24,9 @@
     NSMutableArray * descriptions;
     CCSprite * background;
     CCNode * description;
+	
+	CGPoint startLocation;
+	CGPoint endLocation;
 }
 /*
  

@@ -49,10 +49,10 @@
 	CCMenuItemFont *helpMenu = [CCMenuItemFont itemFromString:@"How to play" 
 													   target:self selector:@selector(helpGame:)];
 	
-	CCMenuItemFont *optionMenu = [CCMenuItemFont itemFromString:@"Options" 
-														 target:self selector:@selector(optionGame:)];
+	CCMenuItemFont *creditMenu = [CCMenuItemFont itemFromString:@"Credits" 
+														 target:self selector:@selector(creditGame:)];
 	
-	CCMenu *gameMenu = [CCMenu menuWithItems:startMenu, helpMenu, optionMenu, nil];
+	CCMenu *gameMenu = [CCMenu menuWithItems:startMenu, helpMenu, creditMenu, nil];
 	
 	[gameMenu alignItemsVertically];
 	[gameMenu setPosition:ccp(160,80)];
@@ -86,6 +86,11 @@
 	[ssl setFontSize:24];                // optional
 	
 	// Add slides in order they appear.
+	
+	[ssl addSlideWithBackground:@"t_3_001.png" andDescription:@""];
+	[ssl addSlideWithBackground:@"t_3_002.png" andDescription:@""];
+	[ssl addSlideWithBackground:@"t_3_003.png" andDescription:@""];
+	
 	[ssl addSlideWithBackground:@"t_1_001.png" andDescription:@""];
 	[ssl addSlideWithBackground:@"t_1_002.png" andDescription:@""];
 	[ssl addSlideWithBackground:@"t_1_003.png" andDescription:@""];
@@ -99,18 +104,21 @@
 	[ssl addSlideWithBackground:@"t_2_003.png" andDescription:@""];
 	[ssl addSlideWithBackground:@"t_2_004.png" andDescription:@""];
 	
-	[ssl addSlideWithBackground:@"t_3_001.png" andDescription:@""];
-	[ssl addSlideWithBackground:@"t_3_002.png" andDescription:@""];
-	[ssl addSlideWithBackground:@"t_3_003.png" andDescription:@""];
+	
 	// Start and display the slide show.
 	[ssl displayFirstSlide];
 	[tutorial_scene addChild:ssl];
 	[[CCDirector sharedDirector] pushScene:tutorial_scene];
 }
 
-- (void) optionGame: (CCMenuItem *) menuItem {
+- (void) creditGame: (CCMenuItem *) menuItem {
 	NSLog(@"Game option");
 	[[SimpleAudioEngine sharedEngine] playEffect:@"buttonClick.caf"];
+	CCScene *creditScene = [CCScene node];
+	CreditLayer * creditLayer = [CreditLayer node];
+	
+	[creditScene addChild:creditLayer];
+	[[CCDirector sharedDirector] pushScene:creditScene];
 }
 
 

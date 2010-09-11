@@ -223,6 +223,9 @@
 		DCCBF1BF0F6022AE0040855A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1BE0F6022AE0040855A /* UIKit.framework */; };
 		FB28C0F5123AA36C00DA4115 /* bgMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB28C0F4123AA36C00DA4115 /* bgMusic.wav */; };
 		FB28C120123AA50400DA4115 /* buttonClick.caf in Resources */ = {isa = PBXBuildFile; fileRef = FB28C11F123AA50400DA4115 /* buttonClick.caf */; };
+		FB28C16A123AB06300DA4115 /* CreditLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB28C169123AB06300DA4115 /* CreditLayer.m */; };
+		FB28C1B2123BBDE700DA4115 /* witchorb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB28C1B1123BBDE700DA4115 /* witchorb_icon.png */; };
+		FB28C1E4123BC61200DA4115 /* witchorb_h_flip.png in Resources */ = {isa = PBXBuildFile; fileRef = FB28C1E3123BC61200DA4115 /* witchorb_h_flip.png */; };
 		FB80265B1239F2060085E43E /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FB80265A1239F2060085E43E /* MenuScene.m */; };
 		FB80275D1239F66F0085E43E /* botton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8026EB1239F66F0085E43E /* botton.png */; };
 		FB80275E1239F66F0085E43E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8026ED1239F66F0085E43E /* 1.png */; };
@@ -563,6 +566,10 @@
 		DCCBF1BE0F6022AE0040855A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FB28C0F4123AA36C00DA4115 /* bgMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgMusic.wav; sourceTree = "<group>"; };
 		FB28C11F123AA50400DA4115 /* buttonClick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = buttonClick.caf; sourceTree = "<group>"; };
+		FB28C168123AB06300DA4115 /* CreditLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditLayer.h; sourceTree = "<group>"; };
+		FB28C169123AB06300DA4115 /* CreditLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditLayer.m; sourceTree = "<group>"; };
+		FB28C1B1123BBDE700DA4115 /* witchorb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchorb_icon.png; sourceTree = "<group>"; };
+		FB28C1E3123BC61200DA4115 /* witchorb_h_flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = witchorb_h_flip.png; path = images/witchorb_h_flip.png; sourceTree = "<group>"; };
 		FB8026591239F2060085E43E /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		FB80265A1239F2060085E43E /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
 		FB8026EB1239F66F0085E43E /* botton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botton.png; sourceTree = "<group>"; };
@@ -787,6 +794,8 @@
 				FB80289D123A53980085E43E /* Manager.m */,
 				FB802928123A64E20085E43E /* TutorialLayer.h */,
 				FB802929123A64E20085E43E /* TutorialLayer.m */,
+				FB28C168123AB06300DA4115 /* CreditLayer.h */,
+				FB28C169123AB06300DA4115 /* CreditLayer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1063,6 +1072,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FB28C1E3123BC61200DA4115 /* witchorb_h_flip.png */,
 				FB28C0F3123AA36C00DA4115 /* sounds */,
 				FB8026EA1239F66F0085E43E /* images */,
 				50F414ED1069373D002A0D5E /* fps_images.png */,
@@ -1084,6 +1094,7 @@
 		FB8026EA1239F66F0085E43E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FB28C1B1123BBDE700DA4115 /* witchorb_icon.png */,
 				FB8026EB1239F66F0085E43E /* botton.png */,
 				FB8026EC1239F66F0085E43E /* card set */,
 				FB8027211239F66F0085E43E /* CardSet */,
@@ -1547,6 +1558,8 @@
 				FB8027C61239F66F0085E43E /* witchorb.png in Resources */,
 				FB28C0F5123AA36C00DA4115 /* bgMusic.wav in Resources */,
 				FB28C120123AA50400DA4115 /* buttonClick.caf in Resources */,
+				FB28C1B2123BBDE700DA4115 /* witchorb_icon.png in Resources */,
+				FB28C1E4123BC61200DA4115 /* witchorb_h_flip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1566,6 +1579,7 @@
 				FB80285E123A4D080085E43E /* ResultScene.m in Sources */,
 				FB80289E123A53980085E43E /* Manager.m in Sources */,
 				FB80292A123A64E20085E43E /* TutorialLayer.m in Sources */,
+				FB28C16A123AB06300DA4115 /* CreditLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
