@@ -56,7 +56,7 @@
 
 - (void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
 	
-	[[CCDirector sharedDirector] popScene];
+	[[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:0 scene:[Menu scene]]];
 	
 }
 

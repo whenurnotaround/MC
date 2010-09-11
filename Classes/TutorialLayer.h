@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "CCTouchDispatcher.h"
+#import "MenuScene.h"
 
 @interface TutorialLayer : CCLayer {
 	int slidePosition;

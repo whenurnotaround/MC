@@ -11,6 +11,7 @@
 #import "SimpleAudioEngine.h"
 
 #import "CCTouchDispatcher.h"
+#import "MenuScene.h"
 
 @interface CreditLayer : CCLayer {
 	CCLabel *label;

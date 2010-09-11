@@ -64,7 +64,6 @@
 		touchLocation = [self convertToNodeSpace:touchLocation];
 	
 		endLocation = touchLocation;
-	NSLog(@"star - end = %i", startLocation.x - endLocation.x);
 		//Compare difference in distance
 	
 	if ( (startLocation.x - endLocation.x) > 100 ||  (startLocation.x - endLocation.x) == 0) {
@@ -75,7 +74,7 @@
 			
 	} else if ((startLocation.x - endLocation.x) < -100) {
 		if ([self hasPreviousSlide]) [self displayPreviousSlide];        
-		else [[CCDirector sharedDirector] popScene];
+		else [[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:2 scene:[Menu scene]]];
 	}//else {
 //		if ([self hasNextSlide]) [self displayNextSlide];        
 //		else [[CCDirector sharedDirector] popScene];
