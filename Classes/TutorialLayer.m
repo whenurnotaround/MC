@@ -66,7 +66,7 @@
 		endLocation = touchLocation;
 	NSLog(@"star - end = %i", startLocation.x - endLocation.x);
 		//Compare difference in distance
-	    if ((startLocation.x - endLocation.x) > 100 ) {
+	    if ((startLocation.x - endLocation.x) < 10  || (startLocation.x - endLocation.x) > 100 ) {
 			// Swipe
 			
 			if ([self hasNextSlide]) [self displayNextSlide];        

@@ -38,17 +38,18 @@
 		[self addChild:backgroundImage z:0];
 		
 		// setup menu
-		[self setupMenu];
+		
 		
 		NSTimer *timer;
 		
-		timer = [NSTimer scheduledTimerWithTimeInterval: 3
+		timer = [NSTimer scheduledTimerWithTimeInterval: 2
 												 target: self
 											   selector: @selector(showResult:)
 											   userInfo: nil
-												repeats: YES];
+												repeats: NO];
 		
 		
+		[self setupMenu];
 		
 		
 	}
@@ -59,7 +60,7 @@
 	// showing the card
 	CCSprite *selected_card = [CCSprite spriteWithFile:[[Manager sharedInstance] selected_card_filename]];
 	[selected_card setOpacity:0];
-	[selected_card runAction:[CCFadeIn actionWithDuration:10]];
+	[selected_card runAction:[CCFadeIn actionWithDuration:5]];
 	selected_card.position = ccp(160,240);
 	[self addChild:selected_card];
 }
