@@ -226,6 +226,8 @@
 		FB28C16A123AB06300DA4115 /* CreditLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB28C169123AB06300DA4115 /* CreditLayer.m */; };
 		FB28C1B2123BBDE700DA4115 /* witchorb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB28C1B1123BBDE700DA4115 /* witchorb_icon.png */; };
 		FB28C1E4123BC61200DA4115 /* witchorb_h_flip.png in Resources */ = {isa = PBXBuildFile; fileRef = FB28C1E3123BC61200DA4115 /* witchorb_h_flip.png */; };
+		FB28C220123BD8DB00DA4115 /* xinnixsoft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB28C21F123BD8DB00DA4115 /* xinnixsoft-logo.png */; };
+		FB28C230123BDBD500DA4115 /* white-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FB28C22F123BDBD500DA4115 /* white-bg.png */; };
 		FB80265B1239F2060085E43E /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FB80265A1239F2060085E43E /* MenuScene.m */; };
 		FB80275D1239F66F0085E43E /* botton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8026EB1239F66F0085E43E /* botton.png */; };
 		FB80275E1239F66F0085E43E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8026ED1239F66F0085E43E /* 1.png */; };
@@ -570,6 +572,8 @@
 		FB28C169123AB06300DA4115 /* CreditLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditLayer.m; sourceTree = "<group>"; };
 		FB28C1B1123BBDE700DA4115 /* witchorb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witchorb_icon.png; sourceTree = "<group>"; };
 		FB28C1E3123BC61200DA4115 /* witchorb_h_flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = witchorb_h_flip.png; path = images/witchorb_h_flip.png; sourceTree = "<group>"; };
+		FB28C21F123BD8DB00DA4115 /* xinnixsoft-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xinnixsoft-logo.png"; sourceTree = "<group>"; };
+		FB28C22F123BDBD500DA4115 /* white-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-bg.png"; sourceTree = "<group>"; };
 		FB8026591239F2060085E43E /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		FB80265A1239F2060085E43E /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
 		FB8026EB1239F66F0085E43E /* botton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botton.png; sourceTree = "<group>"; };
@@ -1094,6 +1098,8 @@
 		FB8026EA1239F66F0085E43E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FB28C22F123BDBD500DA4115 /* white-bg.png */,
+				FB28C21F123BD8DB00DA4115 /* xinnixsoft-logo.png */,
 				FB28C1B1123BBDE700DA4115 /* witchorb_icon.png */,
 				FB8026EB1239F66F0085E43E /* botton.png */,
 				FB8026EC1239F66F0085E43E /* card set */,
@@ -1560,6 +1566,8 @@
 				FB28C120123AA50400DA4115 /* buttonClick.caf in Resources */,
 				FB28C1B2123BBDE700DA4115 /* witchorb_icon.png in Resources */,
 				FB28C1E4123BC61200DA4115 /* witchorb_h_flip.png in Resources */,
+				FB28C220123BD8DB00DA4115 /* xinnixsoft-logo.png in Resources */,
+				FB28C230123BDBD500DA4115 /* white-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

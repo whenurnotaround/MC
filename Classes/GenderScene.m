@@ -79,8 +79,8 @@
 	
 	femaleBtn1.position = ccp(52,32);
 	femaleBtn2.position = ccp(90, 32);
-	femaleBtn3.position = ccp(90, -32);
-	femaleBtn4.position = ccp(52, -32);
+	femaleBtn3.position = ccp(90, -31.5);
+	femaleBtn4.position = ccp(52, -31.5);
 	
 	[self addChild:genderMenu];
 	

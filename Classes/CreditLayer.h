@@ -10,6 +10,8 @@
 #import "cocos2d.h"
 #import "SimpleAudioEngine.h"
 
+#import "CCTouchDispatcher.h"
+
 @interface CreditLayer : CCLayer {
 	CCLabel *label;
 }

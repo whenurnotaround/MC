@@ -170,7 +170,7 @@
 		fRef = FB802929123A64E20085E43E /* TutorialLayer.m */;
 		name = "TutorialLayer.m: 47";
 		rLen = 0;
-		rLoc = 2212;
+		rLoc = 2374;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 810;
@@ -300,7 +300,7 @@
 		fRef = FB80285D123A4D080085E43E /* ResultScene.m */;
 		name = "ResultScene.m: 43";
 		rLen = 0;
-		rLoc = 1011;
+		rLoc = 988;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 336;
@@ -401,9 +401,9 @@
 	};
 	FB80265A1239F2060085E43E /* MenuScene.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1022, 2160}}";
-			sepNavSelRange = "{1510, 65}";
-			sepNavVisRange = "{1711, 1656}";
+			sepNavIntBoundsRect = "{{0, 0}, {1022, 2192}}";
+			sepNavSelRange = "{2508, 0}";
+			sepNavVisRange = "{426, 1174}";
 		};
 	};
 	FB8027CE1239F8CC0085E43E /* PBXBookmark */ = {
@@ -459,16 +459,16 @@
 	};
 	FB80285C123A4D080085E43E /* ResultScene.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1022, 592}}";
-			sepNavSelRange = "{212, 9}";
-			sepNavVisRange = "{0, 354}";
+			sepNavIntBoundsRect = "{{0, 0}, {1022, 615}}";
+			sepNavSelRange = "{320, 0}";
+			sepNavVisRange = "{0, 382}";
 		};
 	};
 	FB80285D123A4D080085E43E /* ResultScene.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1292, 1584}}";
-			sepNavSelRange = "{1022, 0}";
-			sepNavVisRange = "{177, 803}";
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 1712}}";
+			sepNavSelRange = "{1403, 0}";
+			sepNavVisRange = "{998, 1154}";
 		};
 	};
 	FB80289C123A53980085E43E /* Manager.h */ = {
@@ -519,9 +519,9 @@
 	};
 	FB802929123A64E20085E43E /* TutorialLayer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1022, 4304}}";
-			sepNavSelRange = "{1766, 0}";
-			sepNavVisRange = "{1119, 1308}";
+			sepNavIntBoundsRect = "{{0, 0}, {1022, 4208}}";
+			sepNavSelRange = "{1932, 0}";
+			sepNavVisRange = "{157, 1030}";
 			sepNavWindowFrame = "{{130, 594}, {905, 874}}";
 		};
 	};
@@ -530,7 +530,7 @@
 		fRef = FB80285C123A4D080085E43E /* ResultScene.h */;
 		name = "ResultScene.h: 23";
 		rLen = 27;
-		rLoc = 320;
+		rLoc = 348;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;

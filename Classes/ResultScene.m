@@ -66,7 +66,7 @@
 	
 	//[self setupMenu];
 	
-	[NSTimer scheduledTimerWithTimeInterval: 5
+	[NSTimer scheduledTimerWithTimeInterval: 3.5
 									 target: self
 								   selector: @selector(setupMenu:)
 								   userInfo: nil
