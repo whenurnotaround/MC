@@ -15,7 +15,9 @@
 #import "CreditLayer.h"
 
 @interface Menu : CCLayer {
-
+	//CCMenu *muteMenu;
+	CCMenuItemImage *mute;
+	CCMenuItemImage *unmute;
 }
 
 +(id) scene;

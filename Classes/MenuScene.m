@@ -54,10 +54,17 @@
 	
 	CCMenu *gameMenu = [CCMenu menuWithItems:startMenu, helpMenu, creditMenu, nil];
 	
+	
 	[gameMenu alignItemsVertically];
 	[gameMenu setPosition:ccp(160,80)];
 	[self addChild:gameMenu];
+	
+	
+	//////// sound menu ////////
+	
+
 }
+
 
 - (void) startGame: (CCMenuItem *) menuItem {
 	NSLog(@"Game started");
