@@ -58,11 +58,16 @@
 
 - (void) showResult:(id)sender{
 	// showing the card
+	[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+	[[SimpleAudioEngine sharedEngine] playEffect:@"result.mp3"];
+	
 	CCSprite *selected_card = [CCSprite spriteWithFile:[[Manager sharedInstance] selected_card_filename]];
 	[selected_card setOpacity:0];
 	[selected_card runAction:[CCFadeIn actionWithDuration:5]];
 	selected_card.position = ccp(160,240);
 	[self addChild:selected_card];
+	
+	
 	
 	//[self setupMenu];
 	
@@ -91,6 +96,7 @@
 
 -(void)replay:(id)sender {
 	NSLog(@"Go To MenuScene");
+	[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"bgMusic.mp3"];
 	[[SimpleAudioEngine sharedEngine] playEffect:@"buttonClick.caf"];
 	
 	[[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:1 scene:[Menu scene]]];

@@ -52,7 +52,7 @@
 		
 	[[CCDirector sharedDirector] runWithScene: [Menu scene]];
 	
-	[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"bgMusic.wav"];
+	[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"bgMusic.mp3"];
 }
 
 

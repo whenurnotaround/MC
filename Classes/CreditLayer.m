@@ -35,12 +35,33 @@
 //		[creditMenu alignItemsVertically];
 //		[creditMenu setPosition:ccp(160,80)];
 //		[self addChild:creditMenu];
+		
+		CCLabel *label1 = [CCLabel labelWithString:@"Game by" fontName:@"Marker felt" fontSize:20];
+		label1.color = ccc3(60,60,60);
+		[label1 setPosition:ccp(160,300)];
+		
+		[self addChild:label1];
+		
+		CCLabel *web = [CCLabel labelWithString:@"http://www.xinnixsoft.com" fontName:@"Marker felt" fontSize:15];
+		web.color = ccc3(60,60,60);
+		[web setPosition:ccp(160,170)];
+		
+		[self addChild:web];
+		
 //		
-		label =	[CCLabel labelWithString:@"http://www.xinnixsoft.com" fontName:@"Marker felt" fontSize:15];
+		label =	[CCLabel labelWithString:@"Game music sounded by " fontName:@"Marker felt" fontSize:15];
 		label.color = ccc3(60,60,60);
-		[label setPosition:ccp(160,300)];
+		[label setPosition:ccp(160,100)];
 		
 		[self addChild:label];
+		
+		//Game Remix - Kirby's and Bad-Atom
+		
+		CCLabel *label2 = [CCLabel labelWithString:@"Game Remix - Kirby's and Bad-Atom" fontName:@"Marker felt" fontSize:15];
+		label2.color = ccc3(60,60,60);
+		[label2 setPosition:ccp(160,80)];
+		
+		[self addChild:label2];
 		
 		[[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self 
 														 priority:0 swallowsTouches:YES];
