@@ -65,21 +65,23 @@
 	
 		endLocation = touchLocation;
 		//Compare difference in distance
+	if ([self hasNextSlide]) [self displayNextSlide];        
+	else [[CCDirector sharedDirector] popScene];
 	
-	if ( (startLocation.x - endLocation.x) > 100 ||  (startLocation.x - endLocation.x) == 0) {
-			// Swipe
-			
-			if ([self hasNextSlide]) [self displayNextSlide];        
-			else [[CCDirector sharedDirector] popScene];
-			
-	} else if ((startLocation.x - endLocation.x) < -100) {
-		if ([self hasPreviousSlide]) [self displayPreviousSlide];        
-		else [[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:2 scene:[Menu scene]]];
-	}//else {
-//		if ([self hasNextSlide]) [self displayNextSlide];        
-//		else [[CCDirector sharedDirector] popScene];
-//	}
-
+	//if ( (startLocation.x - endLocation.x) > 100 ||  (startLocation.x - endLocation.x) == 0) {
+//			// Swipe
+//			
+//			if ([self hasNextSlide]) [self displayNextSlide];        
+//			else [[CCDirector sharedDirector] popScene];
+//			
+//	} else if ((startLocation.x - endLocation.x) < -100) {
+//		if ([self hasPreviousSlide]) [self displayPreviousSlide];        
+//		else [[CCDirector sharedDirector] replaceScene:[CCFadeTransition transitionWithDuration:2 scene:[Menu scene]]];
+//	}//else {
+////		if ([self hasNextSlide]) [self displayNextSlide];        
+////		else [[CCDirector sharedDirector] popScene];
+////	}
+//
 	
 	
 		

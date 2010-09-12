@@ -49,7 +49,7 @@
 		[self addChild:web];
 		
 //		
-		label =	[CCLabel labelWithString:@"Game music " fontName:@"Marker felt" fontSize:15];
+		label =	[CCLabel labelWithString:@"Music " fontName:@"Marker felt" fontSize:20];
 		label.color = ccc3(60,60,60);
 		[label setPosition:ccp(160,100)];
 		

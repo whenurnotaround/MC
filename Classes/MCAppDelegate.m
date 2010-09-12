@@ -53,6 +53,7 @@
 	[[CCDirector sharedDirector] runWithScene: [Menu scene]];
 	
 	[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"bgMusic.mp3"];
+	[[SimpleAudioEngine sharedEngine] setBackgroundMusicVolume:0.3f ]; 
 }
 
 
