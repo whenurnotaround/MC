@@ -58,7 +58,7 @@
 
 - (void) showResult:(id)sender{
 	// showing the card
-	[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+	//[[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
 	[[SimpleAudioEngine sharedEngine] playEffect:@"result.mp3"];
 	
 	CCSprite *selected_card = [CCSprite spriteWithFile:[[Manager sharedInstance] selected_card_filename]];

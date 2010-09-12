@@ -122,6 +122,14 @@
 			FBCE7184123D105E00D9C2CF /* PBXTextBookmark */ = FBCE7184123D105E00D9C2CF /* PBXTextBookmark */;
 			FBCE7187123D107000D9C2CF /* PBXTextBookmark */ = FBCE7187123D107000D9C2CF /* PBXTextBookmark */;
 			FBCE718A123D108E00D9C2CF /* PBXTextBookmark */ = FBCE718A123D108E00D9C2CF /* PBXTextBookmark */;
+			FBCE718D123D15D200D9C2CF /* PBXTextBookmark */ = FBCE718D123D15D200D9C2CF /* PBXTextBookmark */;
+			FBCE718E123D15D200D9C2CF /* PBXTextBookmark */ = FBCE718E123D15D200D9C2CF /* PBXTextBookmark */;
+			FBCE718F123D15D200D9C2CF /* PBXTextBookmark */ = FBCE718F123D15D200D9C2CF /* PBXTextBookmark */;
+			FBCE7192123D164E00D9C2CF /* PBXTextBookmark */ = FBCE7192123D164E00D9C2CF /* PBXTextBookmark */;
+			FBCE7193123D164E00D9C2CF /* PBXTextBookmark */ = FBCE7193123D164E00D9C2CF /* PBXTextBookmark */;
+			FBCE7194123D164E00D9C2CF /* PBXTextBookmark */ = FBCE7194123D164E00D9C2CF /* PBXTextBookmark */;
+			FBCE7197123D166300D9C2CF /* PBXTextBookmark */ = FBCE7197123D166300D9C2CF /* PBXTextBookmark */;
+			FBCE7198123D167100D9C2CF /* PBXTextBookmark */ = FBCE7198123D167100D9C2CF /* PBXTextBookmark */;
 		};
 		sourceControlManager = FB8026541239F1800085E43E /* Source Control */;
 		userBuildSettings = {
@@ -277,9 +285,9 @@
 	};
 	FB28C169123AB06300DA4115 /* CreditLayer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1022, 1408}}";
-			sepNavSelRange = "{1053, 0}";
-			sepNavVisRange = "{638, 1158}";
+			sepNavIntBoundsRect = "{{0, 0}, {1022, 1440}}";
+			sepNavSelRange = "{1088, 0}";
+			sepNavVisRange = "{711, 1219}";
 		};
 	};
 	FB28C2AB123BF16600DA4115 /* PBXBookmark */ = {
@@ -385,7 +393,7 @@
 		fRef = FB80285D123A4D080085E43E /* ResultScene.m */;
 		name = "ResultScene.m: 69";
 		rLen = 0;
-		rLoc = 1530;
+		rLoc = 1532;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 998;
@@ -487,7 +495,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 59";
 		rLen = 0;
-		rLoc = 2223;
+		rLoc = 2211;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 959;
@@ -497,7 +505,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 50";
 		rLen = 0;
-		rLoc = 1960;
+		rLoc = 1948;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 885;
@@ -611,9 +619,9 @@
 	};
 	FB80285D123A4D080085E43E /* ResultScene.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1292, 1904}}";
-			sepNavSelRange = "{2281, 0}";
-			sepNavVisRange = "{1462, 1054}";
+			sepNavIntBoundsRect = "{{0, 0}, {1022, 2064}}";
+			sepNavSelRange = "{1071, 0}";
+			sepNavVisRange = "{552, 912}";
 		};
 	};
 	FB80289C123A53980085E43E /* Manager.h */ = {
@@ -677,7 +685,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 50";
 		rLen = 0;
-		rLoc = 1960;
+		rLoc = 1948;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 885;
@@ -697,7 +705,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 50";
 		rLen = 0;
-		rLoc = 1960;
+		rLoc = 1948;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 885;
@@ -707,7 +715,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 41";
 		rLen = 0;
-		rLoc = 1528;
+		rLoc = 1517;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 182;
@@ -717,7 +725,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 39";
 		rLen = 0;
-		rLoc = 1423;
+		rLoc = 1412;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 182;
@@ -737,7 +745,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 47";
 		rLen = 0;
-		rLoc = 1624;
+		rLoc = 1613;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 3;
@@ -747,7 +755,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 47";
 		rLen = 0;
-		rLoc = 1615;
+		rLoc = 1604;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 400;
@@ -797,7 +805,7 @@
 		fRef = FB80285D123A4D080085E43E /* ResultScene.m */;
 		name = "ResultScene.m: 99";
 		rLen = 0;
-		rLoc = 2281;
+		rLoc = 2283;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 1462;
@@ -807,7 +815,7 @@
 		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
 		name = "CreditLayer.m: 78";
 		rLen = 65;
-		rLoc = 2277;
+		rLoc = 2265;
 		rType = 0;
 		vrLen = 874;
 		vrLoc = 1355;
@@ -851,5 +859,85 @@
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 638;
+	};
+	FBCE718D123D15D200D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
+		name = "CreditLayer.m: 39";
+		rLen = 0;
+		rLoc = 1053;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 0;
+	};
+	FBCE718E123D15D200D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB80285D123A4D080085E43E /* ResultScene.m */;
+		name = "ResultScene.m: 99";
+		rLen = 0;
+		rLoc = 2283;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 1462;
+	};
+	FBCE718F123D15D200D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB80285D123A4D080085E43E /* ResultScene.m */;
+		name = "ResultScene.m: 61";
+		rLen = 0;
+		rLoc = 1071;
+		rType = 0;
+		vrLen = 910;
+		vrLoc = 552;
+	};
+	FBCE7192123D164E00D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB80285D123A4D080085E43E /* ResultScene.m */;
+		name = "ResultScene.m: 61";
+		rLen = 0;
+		rLoc = 1071;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 552;
+	};
+	FBCE7193123D164E00D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
+		name = "CreditLayer.m: 39";
+		rLen = 0;
+		rLoc = 1053;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 0;
+	};
+	FBCE7194123D164E00D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
+		name = "CreditLayer.m: 52";
+		rLen = 0;
+		rLoc = 1412;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 711;
+	};
+	FBCE7197123D166300D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
+		name = "CreditLayer.m: 47";
+		rLen = 0;
+		rLoc = 1326;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 711;
+	};
+	FBCE7198123D167100D9C2CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB28C169123AB06300DA4115 /* CreditLayer.m */;
+		name = "CreditLayer.m: 40";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 711;
 	};
 }

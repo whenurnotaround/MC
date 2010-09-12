@@ -44,12 +44,12 @@
 		
 		CCLabel *web = [CCLabel labelWithString:@"http://www.xinnixsoft.com" fontName:@"Marker felt" fontSize:15];
 		web.color = ccc3(60,60,60);
-		[web setPosition:ccp(160,170)];
+		[web setPosition:ccp(160,190)];
 		
 		[self addChild:web];
 		
 //		
-		label =	[CCLabel labelWithString:@"Game music sounded by " fontName:@"Marker felt" fontSize:15];
+		label =	[CCLabel labelWithString:@"Game music " fontName:@"Marker felt" fontSize:15];
 		label.color = ccc3(60,60,60);
 		[label setPosition:ccp(160,100)];
 		
@@ -57,7 +57,7 @@
 		
 		//Game Remix - Kirby's and Bad-Atom
 		
-		CCLabel *label2 = [CCLabel labelWithString:@"Game Remix - Kirby's and Bad-Atom" fontName:@"Marker felt" fontSize:15];
+		CCLabel *label2 = [CCLabel labelWithString:@"Game Remix - Kirby's by Bad-Atom" fontName:@"Marker felt" fontSize:15];
 		label2.color = ccc3(60,60,60);
 		[label2 setPosition:ccp(160,80)];
 		
