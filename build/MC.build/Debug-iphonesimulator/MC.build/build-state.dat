@@ -1,7 +1,7 @@
 TMC
 v7
 r0
-t305995693.978531
+t306214257.994867
 cCheck dependencies
 cProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/MC.app/fps_images.png Resources/fps_images.png
@@ -301,8 +301,8 @@ i"CCTouchDispatcher.h"
 i"MenuScene.h"
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m
-c000000004C8CE7600000000000000971
-t1284302688
+c000000004C8CE84D0000000000000971
+t1284302925
 s2417
 i"CreditLayer.h"
 
@@ -488,74 +488,74 @@ t1243543030
 s26624
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_001.png
-c000000004A2A73FC00000000000408C2
-t1244296188
+c000000004C8C075800000000000408C2
+t1284245336
 s264386
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_002.png
-c000000004A2A73BC0000000000041D2C
-t1244296124
+c000000004C8C07580000000000041D2C
+t1284245336
 s269612
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_003.png
-c000000004A2A73EE00000000000461CF
-t1244296174
-s287183
+c000000004C8EE47A0000000000015A29
+t1284433018
+s88617
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_0.png
-c000000004A2A741A0000000000049889
-t1244296218
-s301193
+c000000004C8EE5340000000000016FA8
+t1284433204
+s94120
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_1.png
-c000000004A2A744E00000000000424F0
-t1244296270
+c000000004C8C075800000000000424F0
+t1284245336
 s271600
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_2.png
-c000000004A2A7470000000000002564C
-t1244296304
-s153164
+c000000004C8FA756000000000002A779
+t1284482902
+s173945
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_005.png
-c000000004A2A74840000000000049669
-t1244296324
-s300649
+c000000004C8EEE1200000000000175AA
+t1284435474
+s95658
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_001.png
-c000000004A2A74CA00000000000455A2
-t1244296394
+c000000004C8C075800000000000455A2
+t1284245336
 s284066
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_002.png
-c000000004A2A74C40000000000046E94
-t1244296388
+c000000004C8C07580000000000046E94
+t1284245336
 s290452
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_003.png
-c000000004A2A74B800000000000461E8
-t1244296376
+c000000004C8C075800000000000461E8
+t1284245336
 s287208
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_004.png
-c000000004A2A74AC0000000000042A4B
-t1244296364
+c000000004C8C07580000000000042A4B
+t1284245336
 s272971
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_001.png
-c000000004A268D3E000000000004BC67
-t1244040510
-s310375
+c000000004C8EDF0800000000000190E4
+t1284431624
+s102628
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_002.png
-c000000004A2DFBBE0000000000036663
-t1244527550
-s222819
+c000000004C8EE068000000000001442E
+t1284431976
+s82990
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_003.png
-c000000004A2A7594000000000003DAF7
-t1244296596
-s252663
+c000000004C8EE10A0000000000017BC1
+t1284432138
+s97217
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/wtutor1 copy.png
 c000000004A1C6B580000000000032BAC
@@ -1043,11 +1043,11 @@ t1284298173
 s39981
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
-t1284302893
+t1284521457
 s4148
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM
-t1284302893
+t1284521457
 s102
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/1.png
@@ -1271,7 +1271,7 @@ t1284212400
 s636
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
-t1284302893
+t1284521457
 s1445000
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/PkgInfo
@@ -1435,60 +1435,60 @@ t1284129791
 s16823
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_001.png
-t1284129791
+t1284521454
 s264386
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_002.png
-t1284129791
+t1284521454
 s269612
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_003.png
-t1284129791
-s287183
+t1284521454
+s88617
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_004_0.png
-t1284129791
-s301193
+t1284521454
+s94120
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_004_1.png
-t1284129791
+t1284521454
 s271600
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_004_2.png
-t1284129791
-s153164
+t1284521454
+s173945
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_1_005.png
-t1284129791
-s300649
+t1284521454
+s95658
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_2_001.png
-t1284129791
+t1284521454
 s284066
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_2_002.png
-t1284129791
+t1284521454
 s290452
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_2_003.png
-t1284129791
+t1284521454
 s287208
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_2_004.png
-t1284129791
+t1284521454
 s272971
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_3_001.png
-t1284129791
-s310375
+t1284521454
+s102628
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_3_002.png
-t1284129791
-s222819
+t1284521454
+s82990
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/t_3_003.png
-t1284129791
-s252663
+t1284521454
+s97217
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/unmute.gif
 t1284222845
@@ -1540,7 +1540,7 @@ t1284129791
 s3965664
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o
-t1284302850
+t1284521456
 s56912
 
 N/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o
@@ -2243,11 +2243,11 @@ s971
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies305995693#305995693#0(0"0(0#1#0"8618387328#0"0#
+lSLF07#2@18"Check dependencies306214254#306214254#0(0"0(0#1#0"7090148158703691776#0"0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305995650.266085
-e305995650.576129
+s306214254.614979
+e306214256.606703
 r1
 xCompileC
 xbuild/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o
@@ -2256,7 +2256,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m305995650#305995650#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m8618774016#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o0#
+lSLF07#2@82"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m306214254#306214256#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m8608444544#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/CreditLayer.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/CreditLayer.o0#
 
 CCompileC build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/GenderScene.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Classes/GenderScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s305917574.972649
@@ -3271,130 +3271,130 @@ xResources/images/status.png
 lSLF07#2@32"Copy Resources/images/status.png305822591#305822591#0(0"0(0#0#80"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/status.png8632794592#508"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/status.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_001.png Resources/images/Tutorial/t_1_001.png
-s305822591.619033
-e305822591.658696
+s306214254.523997
+e306214254.603078
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_001.png
 xResources/images/Tutorial/t_1_001.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_1_001.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_001.png8632686304#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_001.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_1_001.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_001.png13511005046767664#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_001.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_002.png Resources/images/Tutorial/t_1_002.png
-s305822591.619830
-e305822591.658897
+s306214254.546362
+e306214254.606705
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_002.png
 xResources/images/Tutorial/t_1_002.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_1_002.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_002.png8632618976#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_002.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_1_002.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_002.png8605008576#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_002.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_003.png Resources/images/Tutorial/t_1_003.png
-s305822591.624708
-e305822591.659017
+s306214254.547519
+e306214254.577216
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_003.png
 xResources/images/Tutorial/t_1_003.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_1_003.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_003.png8632483840#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_003.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_1_003.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_003.png8610576032#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_003.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_004_0.png Resources/images/Tutorial/t_1_004_0.png
-s305822591.625517
-e305822591.659136
+s306214254.548156
+e306214254.582052
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_004_0.png
 xResources/images/Tutorial/t_1_004_0.png
-lSLF07#2@44"Copy Resources/images/Tutorial/t_1_004_0.png305822591#305822591#0(0"0(0#0#92"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_0.png8632438176#520"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_0.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@44"Copy Resources/images/Tutorial/t_1_004_0.png306214254#306214254#0(0"0(0#0#92"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_0.png8609938592#520"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_0.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_004_1.png Resources/images/Tutorial/t_1_004_1.png
-s305822591.630002
-e305822591.659256
+s306214254.548736
+e306214254.608019
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_004_1.png
 xResources/images/Tutorial/t_1_004_1.png
-lSLF07#2@44"Copy Resources/images/Tutorial/t_1_004_1.png305822591#305822591#0(0"0(0#0#92"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_1.png8632386784#520"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_1.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@44"Copy Resources/images/Tutorial/t_1_004_1.png306214254#306214254#0(0"0(0#0#92"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_1.png8609030208#520"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_1.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_004_2.png Resources/images/Tutorial/t_1_004_2.png
-s305822591.634020
-e305822591.659378
+s306214254.549786
+e306214254.590208
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_004_2.png
 xResources/images/Tutorial/t_1_004_2.png
-lSLF07#2@44"Copy Resources/images/Tutorial/t_1_004_2.png305822591#305822591#0(0"0(0#0#92"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_2.png8632140576#520"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_2.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@44"Copy Resources/images/Tutorial/t_1_004_2.png306214254#306214254#0(0"0(0#0#92"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_2.png8608380192#520"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_004_2.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_1_005.png Resources/images/Tutorial/t_1_005.png
-s305822591.645050
-e305822591.659497
+s306214254.550563
+e306214254.575827
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_1_005.png
 xResources/images/Tutorial/t_1_005.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_1_005.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_005.png8632057344#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_005.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_1_005.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_005.png8608126880#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_1_005.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_2_001.png Resources/images/Tutorial/t_2_001.png
-s305822591.659690
-e305822591.698832
+s306214254.551104
+e306214254.612453
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_2_001.png
 xResources/images/Tutorial/t_2_001.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_2_001.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_001.png8631808032#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_001.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_2_001.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_001.png8606340800#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_001.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_2_002.png Resources/images/Tutorial/t_2_002.png
-s305822591.671981
-e305822591.698942
+s306214254.551625
+e306214254.612040
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_2_002.png
 xResources/images/Tutorial/t_2_002.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_2_002.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_002.png8631745184#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_002.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_2_002.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_002.png8605581696#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_002.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_2_003.png Resources/images/Tutorial/t_2_003.png
-s305822591.677507
-e305822591.699042
+s306214254.552181
+e306214254.611000
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_2_003.png
 xResources/images/Tutorial/t_2_003.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_2_003.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_003.png8638927744#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_003.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_2_003.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_003.png8603327936#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_003.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_2_004.png Resources/images/Tutorial/t_2_004.png
-s305822591.683014
-e305822591.699145
+s306214254.575985
+e306214254.614048
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_2_004.png
 xResources/images/Tutorial/t_2_004.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_2_004.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_004.png8637645440#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_004.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_2_004.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_004.png8601196512#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_2_004.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_3_001.png Resources/images/Tutorial/t_3_001.png
-s305822591.684787
-e305822591.699246
+s306214254.577295
+e306214254.592209
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_3_001.png
 xResources/images/Tutorial/t_3_001.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_3_001.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_001.png8635720320#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_001.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_3_001.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_001.png8606103904#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_001.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_3_002.png Resources/images/Tutorial/t_3_002.png
-s305822591.688335
-e305822591.699346
+s306214254.582146
+e306214254.597749
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_3_002.png
 xResources/images/Tutorial/t_3_002.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_3_002.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_002.png8634926592#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_002.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_3_002.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_002.png8604998368#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_002.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/t_3_003.png Resources/images/Tutorial/t_3_003.png
-s305822591.689084
-e305822591.699446
+s306214254.590298
+e306214254.609868
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MC.app/t_3_003.png
 xResources/images/Tutorial/t_3_003.png
-lSLF07#2@42"Copy Resources/images/Tutorial/t_3_003.png305822591#305822591#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_003.png8634488384#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_003.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@42"Copy Resources/images/Tutorial/t_3_003.png306214254#306214254#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_003.png8601179744#518"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/Tutorial/t_3_003.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CCpResource build/Debug-iphonesimulator/MC.app/unmute.gif Resources/images/unmute.gif
 s305915645.821164
@@ -3460,23 +3460,23 @@ xResources/images/xinnixsoft-logo.png
 lSLF07#2@41"Copy Resources/images/xinnixsoft-logo.png305912580#305912580#0(0"0(0#0#89"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/xinnixsoft-logo.png8617719040#517"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/Resources/images/xinnixsoft-logo.png /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
 CGenerateDSYMFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
-s305995693.841723
-e305995693.975680
+s306214257.766223
+e306214257.991543
 r1
 xGenerateDSYMFile
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
-lSLF07#2@94"GenerateDSYMFile build/Debug-iphonesimulator/MC.app.dSYM build/Debug-iphonesimulator/MC.app/MC305995693#305995693#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC8611194176#410"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM0#
+lSLF07#2@94"GenerateDSYMFile build/Debug-iphonesimulator/MC.app.dSYM build/Debug-iphonesimulator/MC.app/MC306214257#306214257#0(0"0(0#0#90"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC8609227744#410"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app.dSYM0#
 
 CLd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC normal i386
-s305995693.643159
-e305995693.841616
+s306214256.606863
+e306214257.766121
 r1
 xLd
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC
 xnormal
 xi386
-lSLF07#2@95"Link /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC305995693#305995693#0(0"0(0#0#0"8618712064#1095"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -filelist /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MC.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC0#
+lSLF07#2@95"Link /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC306214256#306214257#0(0"0(0#0#0"8605102464#1095"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -filelist /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/Objects-normal/i386/MC.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/MC0#
 
 CProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app/Info.plist Resources/Info.plist
 s305905200.934637
@@ -3501,10 +3501,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@24"Precompile MC_Prefix.pch305822591#305822592#0(0"0(0#0#66"/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/MC_Prefix.pch8632200832#1896"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/MC-project-headers.hmap -Wall -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/MC.build/Debug-iphonesimulator/MC.build/DerivedSources -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/MC_Prefix.pch -o /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MC_Prefix-cxfnkdzexbjecqcnmyizvxfvpdac/MC_Prefix.pch.gch0#
 
 CTouch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
-s305995693.975834
-e305995693.978463
+s306214257.991636
+e306214257.994799
 r1
 xTouch
 x/Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app
-lSLF07#2@93"Touch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app305995693#305995693#0(0"0(0#0#0"8620058720#301"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
+lSLF07#2@93"Touch /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app306214257#306214257#0(0"0(0#0#0"8608364192#301"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/MC/build/Debug-iphonesimulator/MC.app0#
 
